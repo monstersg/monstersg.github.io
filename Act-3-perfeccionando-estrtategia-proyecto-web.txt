@@ -1,0 +1,51 @@
+IDENTIFICA LAS METAS INDIVIDUALES:
+
+SUBMETAS:
+1. ENTREGA DEL ESQUEMA DEL SITIO
+2. COPYS
+3. DISEÑO MOVIL
+
+
+DEFINE LA SECUENCIA DE ACTIVIDADES:
+
+1. ENTREGA DEL ESQUEMA DEL SITIO, secuencia de pasos:
+   - Idear, realizar y presentar el esquema del sitio que será un diagrama de línea simple o esquemático para hacer una 
+	maqueta de interfaces de usuario o páginas web. El editor de diagramas incluye una paleta de esquema de página, 
+	así como temas que puede utilizar para crear esquemas de página.
+   - Recopilación de información de los artículos con sus correspondientes descripciones y crear lista de inventario.
+   - Subdivision de los artículos.
+
+2. COPYS:
+   - Crear Mock up de pagina de inicio del sitio:
+   - Comenzar con header, 
+   - Agregar portada y hacerla llamativa, logo de la tienda, 
+   - Agregar el contenido con los artículos más novedosos para ser visualizados desde la página de inicio, 
+   - Crear fomulario de suscripción de sencillo llenado, 
+   - Crear formulario de contacto y agregar los iconos y links tanto de pagos con tarjeta de crédito como enlaces a redes 
+     sociales de la tienda.
+   - Footer
+     
+   - Crear páginas de enlace:
+     . Página de inventario de regalos, agregar fotografías, descripciones y precios de los artículos y habilitar link de carrito
+       de compras y pagos con tarjeta de crédito
+     . Página de inventario de artículos de decoración, agregar fotografías, descripciones y precios de los artículos y habilitar
+       link para carrito de compras y pagos con tarjetas de crédito.
+     . Página de formulario de suscripción.
+     . Página de formulario de contacto.
+     . Página de información de devoluciones y proceso de devoluciones.
+     . Página de ayuda con información de preguntas y respuestas frecuentes.
+     . Página de pagos con tarjeta de crédito.
+
+3. Diseño Responsive para visualizar en pantallas pequeñas:
+   - Definir que información será modificada para mejor visualizacion y definir las partes que se omitirán.
+   - Creación de las 7 subpáginas en diseño responsive.
+
+4. Fases de prueba con usuarios
+   - Control de calidad por medio de usuarios que nunca han visto la página, tomar en cuenta opiniones y verificar posibles
+     errores técnicos y fallas de usabilidad.
+
+5. Entrega del proyecto a reserva de la satisfacción del cliente.
+
+
+5.
+   

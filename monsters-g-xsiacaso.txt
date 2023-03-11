@@ -1,0 +1,8 @@
+<!-- This is the text of subtitle-->
+    <div class="w3-display-topleft w3-text-white" style="padding:20px 45px 5px">
+
+      <h2 class="w3-hide-small" style="font-size:65px">MONSTERS G.</h2>
+      <h3 class="w3-hide-small" style="font-size:28px">Come as you are</h3>
+      <p><a href="#mindlesscut" class="w3-button w3-black w3-padding-large w3-large">COMPRAR</a></p>
+    </div>
+  </div>

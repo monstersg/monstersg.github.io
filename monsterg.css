@@ -1,0 +1,165 @@
+.background-color {background-color: rgba(0, 0, 0, 0.103)}
+.subtitulo {font-size: 25px; margin-left: 200px;}
+.h1font {font-size: 80px; color: black; margin-left: 200px;}
+.bar-color{background-color: rgb(182, 1, 85); color: white}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: floralwhite;
+}
+
+
+
+#slider{
+  width:80%;
+  margin:0px auto;
+  margin-top: 0px;
+  max-width: 600px;
+  position:relative;
+  overflow:hidden;
+  box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
+  }
+  
+  .slide{
+  width:100%;
+  display:none;
+  animation-name:fade;
+  animation-duration:1s;
+  
+  }
+  img{
+  width:100%;
+  }
+  @keyframes fade{
+  from{opacity:0.5;}
+  to{opacity:1;}
+  }
+  
+  .controls{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:1.5em;
+  padding:15px 10px;
+  border-radius:5px;
+  
+  }
+  
+  .controls:hover{
+  background:white;
+  transition:0.3s;
+  }
+  
+  .controls:active{
+  color:grey;
+  }
+  
+  #left-arrow{
+  left:10px;
+  }
+  
+  #right-arrow{
+  right:10px;
+  }
+  
+  
+  
+  .active{
+  background:rgb(7, 67, 213);
+  }
+  
+  @media (max-width:576px){
+  #slider{width:100%;
+  
+  }
+  
+  .controls{
+    font-size:1em;
+  }
+  
+ 
+  }
+
+
+
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: #000000;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size:35px;
+  }
+
+  .top-right-sub{
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    font-size:15px;
+  }
+  
+
+
+
+
+.iconosmenu {
+  margin-left: 40%;
+}
+  .shipping {
+    width: 420px;
+    height: 40px;
+    background-color: rgb(30, 132, 172);
+    animation-name: example;
+    animation-duration: 20s;
+    color: hwb(0 0% 100%);
+    text-align: center;
+    font-size:22px;
+    margin-left:33%;
+  }
+
+  .respship {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(30, 132, 172);
+    animation-name: example;
+    animation-duration: 20s;
+    color: hwb(0 0% 100%);
+    text-align: center;
+    font-size:16px;
+    margin-left:12%;
+  }
+  
+  @keyframes example {
+    0% {background-color: rgb(213, 37, 37);}
+  10%  {background-color: rgb(191, 74, 217);}
+  20%  {background-color: rgb(30, 132, 172);}
+  30% {background-color: rgb(225, 225, 77);}
+  40% {background-color: rgb(213, 37, 37);}
+  50%  {background-color: rgb(191, 74, 217);}
+  60%  {background-color: rgb(30, 132, 172);}
+  70% {background-color: rgb(225, 225, 77);}
+  80% {background-color: rgb(213, 37, 37);}
+  90%  {background-color: rgb(191, 74, 217);}
+  100%  {background-color: rgb(30, 132, 172);}
+}
+  
+
+
+
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Not sure */
+#hover:hover{
+  font-size: 20px;
+  }
+

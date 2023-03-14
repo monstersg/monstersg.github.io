@@ -21,7 +21,7 @@ body{
 }
 .container{
     width: 80vw;
-    height:80vh;
+    height:20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

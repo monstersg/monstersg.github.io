@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalos Tarjeta de Producto</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Labrada" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="monstersg3css.css">
+</head>
+
+<body class="w3-content background-color" style="max-width:1400px">
+    <!-- Responsive bar menu -->
+<nav class="w3-bar w3-black  w3-hide-small">
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:16px">Integradora</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:16px">Fort</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:16px">Collection M.</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:16px">Monsters G.</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-shopping-bag w3-right" style="padding-right: 1%; padding-top:0.8%;"></i>
+        <i class="fa fa-heart w3-right" style="padding-right: 0.7%; padding-top:0.85%;"></i></a>
+</nav>
+
+<!--Responsive small bar menu-->
+<nav class="w3-bar w3-black w3-padding-22 w3-hide-large w3-hide-medium">
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:12px">Integradora®</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:12px">Fort</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:12px">Collection M.</a>
+    <a href="#" class="w3-bar-item text-white w3-button" style="font-size:12px">Monsters G.</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-shopping-bag w3-right" style="padding-right: 3.8%; padding-top: 2.5%"></i></a>
+</nav>
+
+
+<!-- Shipping section responsive-->
+<div class="containershipp w3-hide-large w3-hide-medium">
+    <h5 class="title">
+      <span class="title-word title-word-1">Envío</span>
+      <span class="title-word title-word-2">gratis</span>
+      <span class="title-word title-word-3">en</span>
+      <span class="title-word title-word-4">ordenes</span>
+      <span class="title-word title-word-5">de</span>
+      <span class="title-word title-word-6">$899+</span>
+    </h5>
+  </div>
+
+  <div class="containershipp w3-hide-small shippingfontsize">
+    <h5 class="title">
+      <span class="title-word title-word-1">Envío</span>
+      <span class="title-word title-word-2">gratis</span>
+      <span class="title-word title-word-3">en</span>
+      <span class="title-word title-word-4">ordenes</span>
+      <span class="title-word title-word-5">de</span>
+      <span class="title-word title-word-6">$899+</span>
+    </h5>
+</div>
+ 
+
+<!-- Search Bar Responsive-->
+<form class="w3-hide-large w3-center search-container" style=padding-bottom:15px; action="/action_page.php">
+    <input type="text" placeholder="Buscar.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-heart w3-right w3-hide-large" style="padding-right: 16px; padding-top:8px;"></i></a>
+</form>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Monsters G.</a>
+
+    <div class="subnav">
+        <button class="subnavbtn">Regalos <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#ropa">Ropa</a>
+                <a href="#bolsas">Bolsas y mochilas</a>
+                <a href="#spa">Spa</a>
+                <a href="#fundas">Fundas para iphone</a>
+            </div>
+    </div>
+    <div class="subnav">
+        <button class="subnavbtn">Decoración <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#estantes">Estantes</a>
+                <a href="#velas">Velas y candelabros</a>
+                <a href="#artículos">Artículos varios</a>
+            </div>
+    </div>
+    <a href="#suscribete">Suscríbete</a>
+    <a href="#contacto">Contacto</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+
+
+
+
+<!-- Search Bar -->
+    <form class="w3-hide-small w3-hide-medium search-container" action="/action_page.php">
+        <input type="text" placeholder="Buscar.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:0px">
+
+<!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:0px; margin-right:0px"></div>
+
+
+
+    <div class="container2 content">
+
+        <div class="header">
+            <h1>REGALOS</h1>
+        </div>
+
+        <div class="products">
+            
+            <div class="product">
+                <div class="image">
+                    <img src="purple-dress.jpg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Vestido Viuda<br> Negra</h3>
+                    <span>$ 699.00</span>
+                </div>
+                <h4>Terciopelo violeta y encaje</h4>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="zombiescomic-backpack.jpg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>mochila comics</h3>
+                    <span>$ 799.00</span>
+                </div>
+                <h4>Dimensiones: 43 x 31 x 12 cm.</h4>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="zombie-scrub.jpg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Exfoliante <br>zombie</h3>
+                    <span>$ 299.00</span>
+                </div>
+                <h4>Para remover piel muerta</h4>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="zombie-lunch-box-rz.jpg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Lonchera zombie</h3>
+                    <span>$ 499.00</span>
+                </div>
+                <h4>Kit de supervivencia zombie.<br>
+                    Dimensiones: 23 x 9 x 17 cm.</h4>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Comprar </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+
+    <footer class="pie-de-pagina contenido-pie-pag">
+        <h5>Desarrollado por:&nbsp;</h5>
+        <h5 class="title">
+          <span class="title-word title-word-1">Criatura</span>
+          <span class="title-word title-word-3">Maldita®</span></h5>
+        <h5>Tanya Medina&nbsp;-&nbsp;LDSW&nbsp;-&nbsp;UDG VIRTUAL</h5>
+</footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
+

@@ -2,14 +2,13 @@
     background-color: black;
 }
 
-
-
 .w3-sidebar a {
     font-family: "Labrada", sans-serif}
 
 body,h2,h3,h4,h5,h6 {
     font-family: "Labrada", sans-serif;
-    color: white;}
+    color: white;
+}
 
 .w3-wide {
     font-family: 'Labrada', sans-serif;}
@@ -19,7 +18,7 @@ h1 {
     color: white;}
 
 h4 {
-    color:rgba(93, 1, 50, 0.842);
+    color:rgba(69, 1, 37, 0.842);
 }
 
 h5 {
@@ -28,10 +27,6 @@ h5 {
 
 
 /* Responsive top bar menu */
-
-body {
-        margin: 0;
-      }
       
 .topnav {
         overflow: hidden;
@@ -96,10 +91,6 @@ body {
 .bar-color {
     background-color: #e80555; color: white}
 
-body{
-  padding: 0;
-  margin: 0;
-  background-color: floralwhite;}
 
 
 
@@ -118,8 +109,8 @@ body{
   display:none;
   animation-name:fade;
   animation-duration:1s;
-  
   }
+  
   img{
   width:100%;
   }
@@ -313,12 +304,13 @@ font-size: 17px;
 /* Here are just some visual styles. 🖌 */
 
 .containershipp {
-display: grid;
-place-items: center;  
-text-align: center;
+margin-top: auto;
 }
 
-
+.content {
+  padding:3rem;
+  grid-column: 2 / 3;
+}
 
 
 

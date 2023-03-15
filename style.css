@@ -62,15 +62,17 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 .image{
-    width:100%;
+    min-height: 100vh;
+    width:80%;
     height: 60%;
+    margin: 0 auto;
     display: grid;
-    grid-template-colimns:
+    grid-template-columns:
     repeat(auto-fit, minmax(350px, 1fr));
     place-content: center;
 }
 .image img{
-    width: 240px;
+    width: 100%;
     object-fit: cover;
     
 }

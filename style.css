@@ -69,7 +69,6 @@ body{
 }
 .image img{
     width: 240px;
-    object-fit: cover;
 }
 .namePrice{
     width: 100%;

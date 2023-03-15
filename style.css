@@ -68,7 +68,8 @@ body{
     margin: 0 auto;
     display: grid;
     grid-template-columns:
-    repeat(auto-fit, minmax(350px, 1fr));
+    repeat(auto-fit, minmax(min(350px, 100%) 1fr));
+    gap:30px;
     place-content: center;
 }
 .image img{
